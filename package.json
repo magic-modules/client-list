@@ -1,0 +1,69 @@
+{
+  "name": "@magic-modules/client-list",
+  "version": "0.0.1",
+  "homepage": "https://magic-modules.github.io/client-list",
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs example config.js",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve --watch src",
+    "dev": "magic dev --watch src",
+    "calls": "calls"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic-modules/client-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic-modules/client-list/issues"
+  },
+  "devDependencies": {
+    "@magic-modules/gitbadges": "github:magic-modules/gitbadges",
+    "@magic-modules/pre": "github:magic-modules/pre",
+    "@magic-themes/docs": "github:magic-themes/docs",
+    "@magic/core": "github:magic/core",
+    "@magic/test": "0.0.12"
+  },
+  "author": "Wizards & Witches",
+  "description": "@magic-modules/client-list. displays a list of all @magic-client libraries.",
+  "keywords": [
+    "magic",
+    "client-list"
+  ],
+  "license": "AGPL-3.0",
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    },
+    {
+      "name": "philipp tiefenbacher",
+      "github": "wizard23"
+    },
+    {
+      "name": "phileas lebada",
+      "github": "norpol"
+    },
+    {
+      "name": "litto",
+      "github": "mslitto"
+    },
+    {
+      "name": "daniel safar",
+      "github": "n1c3"
+    },
+    {
+      "name": "jay vaughan",
+      "github": "seclorum"
+    },
+    {
+      "name": "alexander weiss",
+      "github": "ylem235"
+    }
+  ]
+}
