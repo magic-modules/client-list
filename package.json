@@ -22,8 +22,10 @@
   "bugs": {
     "url": "https://github.com/magic-modules/client-list/issues"
   },
+  "dependencies": {
+    "@magic-modules/gitbadges": "github:magic-modules/gitbadges"
+  },
   "devDependencies": {
-    "@magic-modules/gitbadges": "github:magic-modules/gitbadges",
     "@magic-modules/pre": "github:magic-modules/pre",
     "@magic-themes/docs": "github:magic-themes/docs",
     "@magic/core": "github:magic/core",
