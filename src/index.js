@@ -16,9 +16,7 @@ const ClientList = () =>
         { id: 'client-libs-is' },
         Link({ to: 'https://github.com/magic-client/is/' }, '@magic-client/is'),
       ),
-      div([
-        'the @magic-client/is module unifies the javascript type testing apis.',
-      ]),
+      div('the @magic-client/is module unifies the javascript type testing apis.'),
       Link({ to: 'https://magic-client.github.io/is/' }, 'docs / demo'),
     ]),
   ])
