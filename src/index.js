@@ -9,6 +9,10 @@ const ClientList = () =>
         'the @magic-client/json module parses and stringifies json.',
         ' it will also return errors instead of throwing them.',
       ]),
+      GitBadges({
+        project: 'magic-client/json',
+        appveyor: 'jaeh/json',
+      }),
       Link({ to: 'https://magic-client.github.io/json' }, 'docs / demo'),
     ]),
     li([
@@ -17,6 +21,10 @@ const ClientList = () =>
         Link({ to: 'https://github.com/magic-client/is/' }, '@magic-client/is'),
       ),
       div('the @magic-client/is module unifies the javascript type testing apis.'),
+      GitBadges({
+        project: 'magic-client/is',
+        appveyor: 'jaeh/is',
+      }),
       Link({ to: 'https://magic-client.github.io/is/' }, 'docs / demo'),
     ]),
   ])
