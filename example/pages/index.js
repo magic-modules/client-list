@@ -1,20 +1,16 @@
-module.exports = () => [
-  h1('@magic-modules/client-list'),
+module.exports = state => [
+  h1(state.title),
   p([
     'this is the ',
     Link({ to: 'https://github.com/magic-modules' }, '@magic-modules'),
-    ' ClientList component. It shows a list of all @magic-modules.',
+    ' ClientList component. ',
+    state.description,
   ]),
 
-  GitBadges({
-    project: 'magic-modules/client-list',
-    appveyor: 'jaeh/client-list',
-  }),
+  GitBadges('magic-modules/client-list'),
 
   h2({ id: 'installation' }, 'installation'),
-  Pre(`
-npm install magic-modules/client-list
-`),
+  Pre('npm install magic-modules/client-list'),
 
   h2({ id: 'require' }, 'require'),
   p('first add the component to the assets'),
@@ -27,7 +23,7 @@ module.exports = {
 
   h2({ id: 'usage' }, 'usage'),
   p('in a page or component'),
-  Pre('module.exports = {\n  View: () => ClientList,\n}'),
+  Pre('module.exports = () => [ClientList]'),
 
   h2({ id: 'demo' }, 'demo'),
   p('this is what it looks like'),
