@@ -39,7 +39,7 @@ ClientList.style = {
 }
 
 ClientList.dependencies = {
-  GitBadges: require('@magic-modules/gitbadges'),
+  GitBadges: require('@magic-modules/git-badges'),
 }
 
 module.exports = ClientList
