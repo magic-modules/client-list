@@ -1,6 +1,8 @@
 {
   "name": "@magic-modules/client-list",
   "version": "0.0.1",
+  "author": "Wizards & Witches",
+  "description": "@magic-modules/client-list. displays a list of all @magic-client libraries.",
   "homepage": "https://magic-modules.github.io/client-list",
   "scripts": {
     "start": "t -p",
@@ -31,8 +33,6 @@
     "@magic/core": "github:magic/core",
     "@magic/test": "0.0.12"
   },
-  "author": "Wizards & Witches",
-  "description": "@magic-modules/client-list. displays a list of all @magic-client libraries.",
   "keywords": [
     "magic",
     "client-list"
@@ -42,30 +42,6 @@
     {
       "name": "jascha ehrenreich",
       "github": "jaeh"
-    },
-    {
-      "name": "philipp tiefenbacher",
-      "github": "wizard23"
-    },
-    {
-      "name": "phileas lebada",
-      "github": "norpol"
-    },
-    {
-      "name": "litto",
-      "github": "mslitto"
-    },
-    {
-      "name": "daniel safar",
-      "github": "n1c3"
-    },
-    {
-      "name": "jay vaughan",
-      "github": "seclorum"
-    },
-    {
-      "name": "alexander weiss",
-      "github": "ylem235"
     }
   ]
 }
