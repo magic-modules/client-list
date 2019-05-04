@@ -2,7 +2,7 @@
 this is the [@magic-modules](https://github.com/magic-modules/)
 LibraryList component.
 
-shows a list of all [@magic-libraries](https://github.com/magic-libraries/) libraries.
+shows a list of all [@magic-libraries](https://github.com/magic-libraries/).
 
 
 [html docs](https://magic-modules.github.io/library-list/)
