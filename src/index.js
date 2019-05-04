@@ -1,11 +1,10 @@
 const ClientList = props =>
+  CHECK_PROPS(props, ClientList.props, 'ModuleList') &&
   GitList({
     id: 'magic-client',
     org: 'magic-client',
     header: [Link({ to: 'https://magic-client.github.io' }, '@magic-client libraries')],
-    desc: [
-      'below is a collection of the available @magic client libraries.',
-    ],
+    desc: ['below is a collection of the available @magic client libraries.'],
     items: [
       {
         name: 'json',
@@ -31,7 +30,7 @@ ClientList.props = [
   { key: 'org', type: 'string' },
   { key: 'header', type: 'string' },
   { key: 'desc', type: ['string', 'array'] },
-  { key: 'items', type: 'array', required: true },
+  { key: 'items', type: 'array' },
 ]
 
 module.exports = ClientList
