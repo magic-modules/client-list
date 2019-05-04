@@ -1,8 +1,8 @@
 module.exports = {
   state: {
-    title: '@magic-modules/client-list',
+    title: '@magic-modules/library-list',
     description: 'shows a list of all @magic-modules with gitbadges and urls to the docs',
-    logotext: 'ClientList',
+    logotext: 'LibraryList',
     menu: [
       { to: '/#installation', text: 'installation' },
       { to: '/#require', text: 'require' },

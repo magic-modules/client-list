@@ -3,14 +3,14 @@ module.exports = state => [
   p([
     'this is the ',
     Link({ to: 'https://github.com/magic-modules' }, '@magic-modules'),
-    ' ClientList component. ',
+    ' LibraryList component. ',
     state.description,
   ]),
 
-  GitBadges('magic-modules/client-list'),
+  GitBadges('magic-modules/library-list'),
 
   h2({ id: 'installation' }, 'installation'),
-  Pre('npm install magic-modules/client-list'),
+  Pre('npm install magic-modules/library-list'),
 
   h2({ id: 'require' }, 'require'),
   p('first add the component to the assets'),
@@ -18,22 +18,22 @@ module.exports = state => [
 // assets/index.js
 module.exports = {
   //...other exports
-  ClientList: require('@magic-modules/client-list'),
+  LibraryList: require('@magic-modules/library-list'),
 }`),
 
   h2({ id: 'usage' }, 'usage'),
   p('in a page or component'),
-  Pre('module.exports = () => [ClientList]'),
+  Pre('module.exports = () => [LibraryList]'),
 
   h2({ id: 'demo' }, 'demo'),
   p('this is what it looks like'),
-  ClientList,
+  LibraryList,
 
   h2({ id: 'source' }, 'source'),
   p([
     'the source for this page is in the ',
     Link(
-      { to: 'https://github.com/magic-modules/client-list/tree/master/example' },
+      { to: 'https://github.com/magic-modules/library-list/tree/master/example' },
       'example directory',
     ),
     ' and gets built and published to github using ',

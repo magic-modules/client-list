@@ -1,6 +1,6 @@
 module.exports = {
   ROOT: 'example',
-  WEB_ROOT: '/client-list/',
+  WEB_ROOT: '/library-list/',
   PUBLIC: 'docs',
   THEME: 'docs',
 }

@@ -1,26 +1,26 @@
-const ClientList = props =>
-  CHECK_PROPS(props, ClientList.props, 'ModuleList') &&
+const LibraryList = props =>
+  CHECK_PROPS(props, LibraryList.props, 'ModuleList') &&
   GitList({
-    id: 'magic-client',
-    org: 'magic-client',
-    header: [Link({ to: 'https://magic-client.github.io' }, '@magic-client libraries')],
+    id: 'magic-libraries',
+    org: 'magic-libraries',
+    header: [Link({ to: 'https://magic-libraries.github.io' }, '@magic-libraries libraries')],
     desc: ['below is a collection of the available @magic client libraries.'],
     items: [
       {
         name: 'json',
         description: [
-          'the @magic-client/json module parses and stringifies json.',
+          'the @magic-libraries/json module parses and stringifies json.',
           ' it also returns errors instead of throwing them.',
         ],
       },
       {
         name: 'is',
-        description: 'the @magic-client/is module unifies the javascript type testing apis.',
+        description: 'the @magic-libraries/is module unifies the javascript type testing apis.',
       },
       {
         name: 'uri',
         description: [
-          'the @magic-client/uri module ',
+          'the @magic-libraries/uri module ',
           ' encodes objects to uri strings and decodes uri strings to objects.',
         ],
       },
@@ -28,11 +28,11 @@ const ClientList = props =>
     ...props,
   })
 
-ClientList.dependencies = {
+LibraryList.dependencies = {
   GitList: require('@magic-modules/git-list'),
 }
 
-ClientList.props = [
+LibraryList.props = [
   { key: 'id', type: 'string' },
   { key: 'org', type: 'string' },
   { key: 'header', type: 'string' },
@@ -40,4 +40,4 @@ ClientList.props = [
   { key: 'items', type: 'array' },
 ]
 
-module.exports = ClientList
+module.exports = LibraryList

@@ -1,9 +1,9 @@
 {
-  "name": "@magic-modules/client-list",
+  "name": "@magic-modules/library-list",
   "version": "0.0.1",
   "author": "Wizards & Witches",
-  "description": "@magic-modules/client-list. displays a list of all @magic-client libraries.",
-  "homepage": "https://magic-modules.github.io/client-list",
+  "description": "@magic-modules/library-list. displays a list of all @magic-libraries libraries.",
+  "homepage": "https://magic-modules.github.io/library-list",
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
@@ -19,10 +19,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magic-modules/client-list.git"
+    "url": "git+https://github.com/magic-modules/library-list.git"
   },
   "bugs": {
-    "url": "https://github.com/magic-modules/client-list/issues"
+    "url": "https://github.com/magic-modules/library-list/issues"
   },
   "dependencies": {
     "@magic-modules/git-list": "github:magic-modules/git-list"
@@ -36,7 +36,7 @@
   },
   "keywords": [
     "magic",
-    "client-list"
+    "library-list"
   ],
   "license": "AGPL-3.0",
   "contributors": [
