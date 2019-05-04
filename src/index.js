@@ -10,12 +10,19 @@ const ClientList = props =>
         name: 'json',
         description: [
           'the @magic-client/json module parses and stringifies json.',
-          ' it will also return errors instead of throwing them.',
+          ' it also returns errors instead of throwing them.',
         ],
       },
       {
         name: 'is',
         description: 'the @magic-client/is module unifies the javascript type testing apis.',
+      },
+      {
+        name: 'uri',
+        description: [
+          'the @magic-client/uri module ',
+          ' encodes objects to uri strings and decodes uri strings to objects.',
+        ],
       },
     ],
     ...props,
