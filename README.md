@@ -33,19 +33,6 @@ npm install --save-exact @magic-modules/library-list
 ```
 
 #### usage:
-
-##### import:
-```javascript
-// assets/index.js:
-
-
-module.exports = {
-  //... other entries
-  LibraryList = require('@magic-modules/library-list'),
-}
-```
-
-##### use tag
 ```javascript
 // in any component view
 const component = {

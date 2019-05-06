@@ -12,15 +12,6 @@ module.exports = state => [
   h2({ id: 'installation' }, 'installation'),
   Pre('npm install magic-modules/library-list'),
 
-  h2({ id: 'require' }, 'require'),
-  p('first add the component to the assets'),
-  Pre(`
-// assets/index.js
-module.exports = {
-  //...other exports
-  LibraryList: require('@magic-modules/library-list'),
-}`),
-
   h2({ id: 'usage' }, 'usage'),
   p('in a page or component'),
   Pre('module.exports = () => [LibraryList]'),
