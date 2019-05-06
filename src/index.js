@@ -1,7 +1,6 @@
 const LibraryList = props =>
   CHECK_PROPS(props, LibraryList.props, 'ModuleList') &&
   GitList({
-    id: 'magic-libraries',
     org: 'magic-libraries',
     header: [Link({ to: 'https://magic-libraries.github.io' }, '@magic-libraries')],
     desc: ['below is a collection of the available @magic client libraries.'],
