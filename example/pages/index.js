@@ -13,7 +13,7 @@ module.exports = state => [
   Pre('npm install magic-modules/library-list'),
 
   h2({ id: 'usage' }, 'usage'),
-  p('in a page or component'),
+  p('in a page or module View'),
   Pre('module.exports = () => [LibraryList]'),
 
   h2({ id: 'demo' }, 'demo'),
