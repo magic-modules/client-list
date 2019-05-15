@@ -1,5 +1,5 @@
-const LibraryList = props =>
-  CHECK_PROPS(props, LibraryList.props, 'ModuleList') &&
+export const View = props =>
+  CHECK_PROPS(props, propTypes, 'ModuleList') &&
   GitList({
     org: 'magic-libraries',
     header: [Link({ to: 'https://magic-libraries.github.io' }, '@magic-libraries')],
@@ -27,16 +27,10 @@ const LibraryList = props =>
     ...props,
   })
 
-LibraryList.dependencies = {
-  GitList: require('@magic-modules/git-list'),
-}
-
-LibraryList.props = [
+export const propTypes = [
   { key: 'id', type: 'string' },
   { key: 'org', type: 'string' },
   { key: 'header', type: 'string' },
   { key: 'desc', type: ['string', 'array'] },
   { key: 'items', type: 'array' },
 ]
-
-module.exports = LibraryList
