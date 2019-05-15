@@ -4,6 +4,7 @@
   "author": "Wizards & Witches",
   "description": "@magic-modules/library-list. displays a list of all @magic-libraries libraries.",
   "homepage": "https://magic-modules.github.io/library-list",
+  "license": "AGPL-3.0",
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
@@ -13,7 +14,9 @@
     "dev": "magic dev --watch src",
     "calls": "calls"
   },
-  "main": "src/index.js",
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
   "files": [
     "src"
   ],
@@ -32,13 +35,12 @@
     "@magic-modules/pre": "github:magic-modules/pre",
     "@magic-themes/docs": "github:magic-themes/docs",
     "@magic/core": "github:magic/core",
-    "@magic/test": "0.0.12"
+    "@magic/test": "0.1.1"
   },
   "keywords": [
     "magic",
     "library-list"
   ],
-  "license": "AGPL-3.0",
   "contributors": [
     {
       "name": "jascha ehrenreich",
