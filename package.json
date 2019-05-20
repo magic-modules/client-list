@@ -5,6 +5,9 @@
   "description": "@magic-modules/library-list. displays a list of all @magic-libraries libraries.",
   "homepage": "https://magic-modules.github.io/library-list",
   "license": "AGPL-3.0",
+  "engines": {
+    "node": ">=12.2.0"
+  },
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
