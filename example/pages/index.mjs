@@ -14,7 +14,7 @@ export const View = state => [
 
   h2({ id: 'usage' }, 'usage'),
   p('in a page or module View'),
-  Pre('module.exports = () => [LibraryList]'),
+  Pre('export const View = () => LibraryList()'),
 
   h2({ id: 'demo' }, 'demo'),
   p('this is what it looks like'),
