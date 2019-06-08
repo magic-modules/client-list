@@ -19,8 +19,15 @@ export const View = (props = {}) =>
       {
         name: 'uri',
         description: [
-          'the @magic-libraries/uri module ',
+          'the @magic-libraries/uri module',
           ' encodes objects to uri strings and decodes uri strings to objects.',
+        ],
+      },
+      {
+        name: 'gql',
+        description: [
+          'the @magic-libraries/gql module',
+          ' encodes template strings to graphql queries ready to be sent to a server.',
         ],
       },
     ],
