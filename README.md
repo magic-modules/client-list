@@ -16,8 +16,8 @@ shows a list of all [@magic-libraries](https://github.com/magic-libraries/).
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/library-list.svg
 [npm-url]: https://www.npmjs.com/package/@magic-modules/library-list
-[travis-image]: https://api.travis-ci.org/magic-modules/library-list.svg?branch=master
-[travis-url]: https://travis-ci.org/magic-modules/library-list
+[travis-image]: https://img.shields.io/travis/com/magic-modules/library-list/master
+[travis-url]: https://travis-ci.com/magic-modules/library-list
 [appveyor-image]: https://img.shields.io/appveyor/ci/magicmodules/library-list/master.svg
 [appveyor-url]: https://ci.appveyor.com/project/magicmodules/library-list/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-modules/library-list/badge.svg
