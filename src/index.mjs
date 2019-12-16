@@ -13,6 +13,10 @@ export const View = (props = {}) =>
         ],
       },
       {
+        name: 'db',
+        description: 'key => value store using localstorage',
+      },
+      {
         name: 'is',
         description: 'the @magic-libraries/is module unifies the javascript type testing apis.',
       },
