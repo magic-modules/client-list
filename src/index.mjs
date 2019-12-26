@@ -1,5 +1,4 @@
-export const View = (props = {}) =>
-  CHECK_PROPS(props, propTypes, 'LibraryList') &&
+export const View = () =>
   GitList({
     org: 'magic-libraries',
     header: [Link({ to: 'https://magic-libraries.github.io' }, '@magic-libraries')],
@@ -35,15 +34,4 @@ export const View = (props = {}) =>
         ],
       },
     ],
-    ...props,
   })
-
-export const propTypes = {
-  LibraryList: [
-    { key: 'id', type: 'string' },
-    { key: 'org', type: 'string' },
-    { key: 'header', type: 'string' },
-    { key: 'desc', type: ['string', 'array'] },
-    { key: 'items', type: 'array' },
-  ],
-}
