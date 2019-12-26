@@ -56,5 +56,8 @@ update @magic-modules/git-list
 ##### 0.0.4
 add @magic-libraries/db
 
-##### 0.0.5 - unreleased
+##### 0.0.5
+remove props.
+
+##### 0.0.6 - unreleased
 ...
