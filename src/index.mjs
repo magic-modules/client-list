@@ -5,15 +5,15 @@ export const View = () =>
     desc: ['below is a collection of the available @magic client libraries.'],
     items: [
       {
+        name: 'db',
+        description: 'key => value store using localstorage',
+      },
+      {
         name: 'gql',
         description: [
           'the @magic-libraries/gql module',
           ' encodes template strings to graphql queries ready to be sent to a server.',
         ],
-      },
-      {
-        name: 'db',
-        description: 'key => value store using localstorage',
       },
       {
         name: 'is',
