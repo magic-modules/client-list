@@ -59,5 +59,8 @@ add @magic-libraries/db
 ##### 0.0.5
 remove props.
 
-##### 0.0.6 - unreleased
+##### 0.0.6
+sort list alphabetically by library name
+
+##### 0.0.7 - unreleased
 ...
