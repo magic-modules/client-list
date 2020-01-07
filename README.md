@@ -63,4 +63,8 @@ remove props.
 sort list alphabetically by library name
 
 ##### 0.0.7 - unreleased
+require node 13.5.0
+
+##### 0.0.8 - unreleased
+...
 ...
