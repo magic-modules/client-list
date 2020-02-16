@@ -27,6 +27,13 @@ export const View = () =>
         ],
       },
       {
+        name: 'prevent-default',
+        description: [
+          'the @magic-libraries/prevent-default module',
+          ' invokes event.preventDefault as a hyperapp effect.',
+        ],
+      },
+      {
         name: 'uri',
         description: [
           'the @magic-libraries/uri module',
