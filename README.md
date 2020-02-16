@@ -62,9 +62,9 @@ remove props.
 ##### 0.0.6
 sort list alphabetically by library name
 
-##### 0.0.7 - unreleased
-require node 13.5.0
+##### 0.0.7
+* require node 13.5.0
+* add @magic-libraries/prevent-default to list
 
 ##### 0.0.8 - unreleased
-...
 ...
