@@ -1,9 +1,9 @@
 ## @magic-modules/library-list
+
 this is the [@magic-modules](https://github.com/magic-modules/)
 LibraryList component.
 
 shows a list of all [@magic-libraries](https://github.com/magic-libraries/).
-
 
 [html docs](https://magic-modules.github.io/library-list/)
 
@@ -34,10 +34,7 @@ npm install --save-exact @magic-modules/library-list
 
 #### usage:
 ```javascript
-// in any component view
-const component = {
-  View: () => div([LibraryList]),
-}
+<LibraryList></LibraryList>
 ```
 
 thats it.
@@ -70,5 +67,8 @@ sort list alphabetically by library name
 * make sure @magic > 0.0.55 works with this module
 * update git-list, Links in lists now no longer display: block
 
-##### 0.0.9 - unreleased
+##### 0.0.9
+update Readme
+
+##### 0.0.10 - unreleased
 ...
