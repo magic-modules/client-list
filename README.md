@@ -70,5 +70,8 @@ sort list alphabetically by library name
 ##### 0.0.9
 update Readme
 
-##### 0.0.10 - unreleased
+##### 0.0.10
+update description text
+
+##### 0.0.11 - unreleased
 ...
