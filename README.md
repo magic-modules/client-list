@@ -66,5 +66,9 @@ sort list alphabetically by library name
 * require node 13.5.0
 * add @magic-libraries/prevent-default to list
 
-##### 0.0.8 - unreleased
+##### 0.0.8
+* make sure @magic > 0.0.55 works with this module
+* update git-list, Links in lists now no longer display: block
+
+##### 0.0.9 - unreleased
 ...
