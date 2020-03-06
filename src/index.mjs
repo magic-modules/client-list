@@ -2,7 +2,11 @@ export const View = () =>
   GitList({
     org: 'magic-libraries',
     header: [Link({ to: 'https://magic-libraries.github.io' }, '@magic-libraries')],
-    desc: ['below is a collection of the available @magic client libraries.'],
+    desc: [
+      ' @magic-libraries are not intended to be used in markdown,',
+      ' instead, a developer will use them when creating @magic-modules,',
+      ' which can then be used from markdown pages.',
+    ],
     items: [
       {
         name: 'db',
