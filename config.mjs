@@ -4,5 +4,5 @@ export default {
   PUBLIC: 'docs',
   URL: 'magic-modules.github.io/library-list',
   THEME: 'docs',
-  HOIST: 'Gdpr',
+  HOIST: ['LightSwitch', 'Gdpr'],
 }
