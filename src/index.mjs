@@ -3,7 +3,8 @@ export const View = () =>
     org: 'magic-libraries',
     header: [Link({ to: 'https://magic-libraries.github.io' }, '@magic-libraries')],
     desc: [
-      ' @magic-libraries are not intended to be used in markdown,',
+      '@magic libraries are pieces of client side functionality.',
+      ' they are not intended to be used in markdown,',
       ' instead, a developer will use them when creating @magic-modules,',
       ' which can then be used from markdown pages.',
     ],
