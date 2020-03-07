@@ -73,5 +73,9 @@ update Readme
 ##### 0.0.10
 update description text
 
-##### 0.0.11 - unreleased
+##### 0.0.11
+* update git-list
+* update description
+
+##### 0.0.12 - unreleased
 ...
