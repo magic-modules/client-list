@@ -6,7 +6,7 @@ LibraryList component.
 
 ${state.description}
 
-<GitBadges>magic-modules/library-list</GitBadges>
+<GitBadges>@magic-modules/library-list</GitBadges>
 
 ## installation
 
