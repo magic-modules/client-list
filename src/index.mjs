@@ -39,6 +39,13 @@ export const View = () =>
         ],
       },
       {
+        name: 'try-catch',
+        description: [
+          'the @magic-libraries/try-catch module',
+          ' returns errors instead of throwing them.',
+        ],
+      },
+      {
         name: 'uri',
         description: [
           'the @magic-libraries/uri module',
