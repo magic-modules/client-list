@@ -77,8 +77,11 @@ update description text
 * update git-list
 * update description
 
-##### 0.0.12 
+##### 0.0.12
 update git-list
 
-##### 0.0.13 - unreleased
+##### 0.0.13
+add @magic-libraries/try-catch
+
+##### 0.0.14 - unreleased
 ...
