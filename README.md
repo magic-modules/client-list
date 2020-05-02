@@ -83,5 +83,8 @@ update git-list
 ##### 0.0.13
 add @magic-libraries/try-catch
 
-##### 0.0.14 - unreleased
+##### 0.0.14
+update git-list
+
+##### 0.0.15 - unreleased
 ...
