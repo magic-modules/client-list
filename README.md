@@ -89,5 +89,8 @@ update git-list
 ##### 0.0.15
 update git list to fix typo
 
-##### 0.0.16 - unreleased
+##### 0.0.16 
+bump required node version to 14.15.4
+
+##### 0.0.17 - unreleased
 ...
