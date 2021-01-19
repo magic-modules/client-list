@@ -32,7 +32,7 @@
     "url": "https://github.com/magic-modules/library-list/issues"
   },
   "dependencies": {
-    "@magic-modules/git-list": "0.0.11"
+    "@magic-modules/git-list": "0.0.12"
   },
   "devDependencies": {
     "@magic-modules/git-badges": "0.0.10",
