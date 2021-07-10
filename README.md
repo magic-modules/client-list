@@ -95,5 +95,8 @@ update git list to fix typo
 ##### 0.0.17
 * update dependencies
 
-##### 0.0.18 - unreleased
+##### 0.0.18
+add slugify and http to list
+
+##### 0.0.19 - unreleased
 ...
