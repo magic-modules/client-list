@@ -21,6 +21,10 @@ export const View = () =>
         ],
       },
       {
+        name: 'http',
+        description: 'http request effect for @magic.',
+      },
+      {
         name: 'is',
         description: 'the @magic-libraries/is module unifies the javascript type testing apis.',
       },
@@ -37,6 +41,10 @@ export const View = () =>
           'the @magic-libraries/prevent-default module',
           ' invokes event.preventDefault as a hyperapp effect.',
         ],
+      },
+      {
+        name: 'slugify',
+        description: 'makes strings url safe. opinionated.',
       },
       {
         name: 'try-catch',
